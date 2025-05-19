@@ -54,7 +54,7 @@ questions = [
     {
         "id_name": "Tute1_14",
         "type": "multichoice",
-        "question_text": "<p><strong>Q14</strong> If a current has v = 5 m/s, what cardinal direction is the water travelling?</p>",
+        "question_text": "<p><strong>Q4</strong> If a current has v = 5 m/s, what direction is the water travelling?</p>",
         "general_feedback": "<p>v represents velocity towards the North. A positive value means it is flowing in that direction.</p>",
         "options": [
             {"text": "<![CDATA[North]]>", "fraction": "100"},
@@ -68,7 +68,7 @@ questions = [
     {
         "id_name": "Tute1_15",
         "type": "multichoice",
-        "question_text": "<p><strong>Q15</strong> If water is experiencing upwelling at a speed of 0.1 m/s, what is the value of w (the vertical velocity component)?</p>",
+        "question_text": "<p><strong>Q5</strong> If water is experiencing upwelling at a speed of 0.1 m/s, what is the value of w (the vertical velocity component)?</p>",
         "general_feedback": "<p>w represents velocity downwards (positive downwards). Upwelling is an upward movement, so w must be negative. w = -0.1 m/s.</p>",
         "options": [
             {"text": "<![CDATA[0.1 m/s]]>", "fraction": "0"},
@@ -82,7 +82,7 @@ questions = [
     {
         "id_name": "Tute1_16",
         "type": "multichoice",
-        "question_text": "<p><strong>Q16</strong> A river flows directly South. Which velocity component is non-zero and negative?</p>",
+        "question_text": "<p><strong>Q6</strong> A river flows directly South. Which velocity component is non-zero and negative?</p>",
         "general_feedback": "<p>Velocity towards the North is represented by v. If the river flows South, v must be negative.</p>",
         "options": [
             {"text": "<![CDATA[u]]>", "fraction": "0"},
@@ -95,7 +95,7 @@ questions = [
     {
         "id_name": "Tute1_25",
         "type": "multichoice",
-        "question_text": "<p><strong>Q25</strong> The notation 'x' in physical oceanography typically refers to distance in which direction?</p>",
+        "question_text": "<p><strong>Q7</strong> The notation 'x' in physical oceanography typically refers to distance in which direction?</p>",
         "general_feedback": "<p>By convention, x is eastward, y is northward, and z is downward.</p>",
         "options": [
             {"text": "Eastward", "fraction": "100"},
@@ -109,7 +109,7 @@ questions = [
     {
         "id_name": "Tute1_31",
         "type": "multichoice",
-        "question_text": "<p><strong>Q31</strong> A weather balloon is rising at 2 m/s. What is its w velocity component?</p>",
+        "question_text": "<p><strong>Q8</strong> A weather balloon is rising at 2 m/s. What is its w velocity component?</p>",
         "general_feedback": "<p>The w component is positive downwards. Since the balloon is rising (moving upwards), its w component is negative. w = -2 m/s.</p>",
         "options": [
             {"text": "<![CDATA[2 m/s]]>", "fraction": "0"},
@@ -123,7 +123,7 @@ questions = [
     {
         "id_name": "Tute1_36",
         "type": "multichoice",
-        "question_text": "<p><strong>Q36</strong> If a water parcel has u = 0 m/s, v = -2 m/s, and w = 0 m/s, it is moving:</p>",
+        "question_text": "<p><strong>Q9</strong> If a water parcel has u = 0 m/s, v = -2 m/s, and w = 0 m/s, it is moving:</p>",
         "general_feedback": "<p>u=0 means no East-West movement. v=-2 m/s means movement towards the South at 2 m/s. w=0 means no vertical movement.</p>",
         "options": [
             {"text": "<![CDATA[Eastward at 2 m/s]]>", "fraction": "0"},
@@ -137,7 +137,7 @@ questions = [
     {
         "id_name": "Tute1_41",
         "type": "multichoice",
-        "question_text": "<p><strong>Q41</strong> If w = 2 m/s, the water is:</p>",
+        "question_text": "<p><strong>Q10</strong> If w = 2 m/s, the water is:</p>",
         "general_feedback": "<p>The w component is positive downwards. So w = 2 m/s means the water is sinking or moving downwards at 2 m/s.</p>",
         "options": [
             {"text": "<![CDATA[Moving Eastward at 2 m/s]]>", "fraction": "0"},
@@ -151,7 +151,7 @@ questions = [
     {
         "id_name": "Tute1_46",
         "type": "multichoice",
-        "question_text": "<p><strong>Q46</strong> If u = -5 km/hr and v = 0 km/hr, what direction is a boat travelling?</p>",
+        "question_text": "<p><strong>Q11</strong> If u = -5 km/hr and v = 0 km/hr, what direction is a boat travelling?</p>",
         "general_feedback": "<p>u is eastward velocity. A negative u means westward. v=0 means no north-south motion.</p>",
         "options": [
             {"text": "<![CDATA[Eastward]]>", "fraction": "0"},
@@ -165,7 +165,7 @@ questions = [
     {
         "id_name": "Tute1_49",
         "type": "multichoice",
-        "question_text": "<p><strong>Q49</strong> A current meter records u=1m/s, v=1m/s, w=0m/s. The water is flowing towards the:</p>",
+        "question_text": "<p><strong>Q12</strong> A current meter records u=1m/s, v=1m/s, w=0m/s. The water is flowing towards the:</p>",
         "general_feedback": "<p>u=1m/s is Eastward. v=1m/s is Northward. Combining these gives a North-Eastward flow. w=0 means no vertical motion.</p>",
         "options": [
             {"text": "<![CDATA[North]]>", "fraction": "0"},
@@ -180,7 +180,7 @@ questions = [
     {
         "id_name": "Tute1_5a",
         "type": "multichoice",
-        "question_text": "<p><strong>Q5a</strong> An estuary is running northwards, the water gets slower towards the mouth as the width of the estuary increases. At any point on the river, which of the following is true regarding the northward velocity component (v)?</p>",
+        "question_text": "<p><strong>Q13</strong> An estuary is running northwards. At any point on the river, which of the following is true?</p>",
         "general_feedback": "<p>Since the estuary is running northwards, the v (northward) component of velocity must be positive.</p>",
         "options": [
             {"text": "<![CDATA[v>0]]>", "fraction": "100"},
@@ -196,7 +196,7 @@ questions = [
     {
         "id_name": "Tute1_5b",
         "type": "multichoice",
-        "question_text": "<p><strong>Q5b</strong> An estuary is running northwards (positive y-direction), and the water gets slower towards the mouth (further north) as the width of the estuary increases. What can we say about how the northward water velocity (v) changes with northward distance (y)?</p>",
+        "question_text": "<p><strong>Q14</strong> An estuary is running northwards (positive y-direction), and the water gets slower towards the mouth (further north) as the width of the estuary increases. What can we say about how the northward water velocity (v) changes with northward distance (y)?</p>",
         "general_feedback": "<p>The v (northward) velocity is decreasing as y (northward distance) increases. This means the rate of change of v with respect to y is negative. So, $$ \\frac{dv}{dy}<0 $$</p>",
         "options": [
             {"text": "<![CDATA[$$ \\frac{dv}{dy}<0 $$]]>", "fraction": "100"},
@@ -211,7 +211,7 @@ questions = [
     {
         "id_name": "Tute1_7a",
         "type": "multichoice",
-        "question_text": "<p><strong>Q7a</strong> Water in the Gulf Stream (which flows northwards along the coast of eastern USA) is fastest at the surface and gets slower with depth. How would we express this?</p>",
+        "question_text": "<p><strong>Q15</strong> Water in the Gulf Stream (which flows northwards along the coast of eastern USA) is fastest at the surface and gets slower with depth. How would we express this?</p>",
         "general_feedback": "<p>The Gulf Stream flows northwards, so the relevant velocity component is v. Depth (z) is positive downwards. If velocity gets slower with depth, it means as z increases, v decreases. So the rate of change of v with respect to z, dv/dz, is negative.</p>",
         "options": [
             {"text": "<![CDATA[$$ \\frac{dv}{dz}<0 $$]]>", "fraction": "100"},
@@ -227,7 +227,7 @@ questions = [
     {
         "id_name": "Tute1_7b",
         "type": "multichoice",
-        "question_text": "<p><strong>Q7b</strong> Water in the East Australian Current (which flows southwards along the coast of eastern Australia) is fastest at the surface and gets slower with depth. How would we express this?</p>",
+        "question_text": "<p><strong>Q16</strong> Water in the East Australian Current (which flows southwards along the coast of eastern Australia) is fastest at the surface and gets slower with depth. How would we express this?</p>",
         "general_feedback": "<p>The EAC flows southwards, so its v (northward) component is negative. Let's say at the surface v = -V<sub>max</sub>. As depth (z, positive downwards) increases, the speed gets slower, meaning the magnitude of v becomes smaller (e.g., v becomes -V<sub>mid</sub> where |V<sub>mid</sub>| < |V<sub>max</sub>|). So, as z increases, v becomes *less negative* (i.e., it increases algebraically). Therefore, dv/dz > 0.</p>",
         "options": [
             {"text": "<![CDATA[$$ \\frac{dv}{dz}<0 $$]]>", "fraction": "0"},
@@ -257,7 +257,7 @@ questions = [
     {
         "id_name": "Tute1_18", 
         "type": "multichoice",
-        "question_text": "<p><strong>Q18</strong> If salinity (S) decreases as you move eastward (positive x-direction), is dS/dx positive or negative?</p>",
+        "question_text": "<p><strong>Q18</strong> If salinity (S) decreases as you move eastward (positive x-direction), what can we say about dS/dx?</p>",
         "general_feedback": "<p>The x-direction is eastward. If salinity decreases as x increases, the gradient dS/dx is negative.</p>",
         "options": [
             {"text": "<![CDATA[Positive]]>", "fraction": "0"},
@@ -271,7 +271,7 @@ questions = [
     {
         "id_name": "Tute1_24", 
         "type": "multichoice",
-        "question_text": "<p><strong>Q24</strong> If the concentration of a pollutant (C) is uniform throughout a lake, what is the value of dC/dx (the gradient in the x-direction)?</p>",
+        "question_text": "<p><strong>Q19</strong> If the concentration of a pollutant (C) is uniform throughout a lake, what is the value of dC/dx (the gradient in the x-direction)?</p>",
         "general_feedback": "<p>If the concentration is uniform, it does not change with position (x). Therefore, the gradient dC/dx is zero.</p>",
         "options": [
             {"text": "<![CDATA[Positive]]>", "fraction": "0"},
@@ -285,7 +285,7 @@ questions = [
      {
         "id_name": "Tute1_27", 
         "type": "multichoice",
-        "question_text": "<p><strong>Q27</strong> If dP/dx = -10 Pa/m, in which direction is the pressure increasing?</p>",
+        "question_text": "<p><strong>Q20</strong> If dP/dx = -10 Pa/m, in which direction is the pressure increasing?</p>",
         "general_feedback": "<p>dP/dx is negative, meaning pressure P decreases as x (eastward) increases. Therefore, pressure must be increasing in the opposite direction, which is Westward.</p>",
         "options": [
             {"text": "<![CDATA[Eastward]]>", "fraction": "0"},
@@ -299,7 +299,7 @@ questions = [
     {
         "id_name": "Tute1_28",
         "type": "numerical",
-        "question_text": "<p><strong>Q28</strong> The temperature at the sea surface (z=0m) is 25°C. If dT/dz = -0.1 °C/m, what is the temperature at a depth of 10m? (Answer in °C)</p>",
+        "question_text": "<p><strong>Q21</strong> The temperature at the sea surface (z=0m) is 25°C. If dT/dz = -0.1 °C/m, what is the temperature at a depth of 10m? (Answer in °C)</p>",
         "general_feedback": "<p>The change in temperature is $$ \\Delta T = \\frac{dT}{dz} \\times \\Delta z $$. So, $$ \\Delta T = -0.1 \\text{ °C/m} \\times 10 \\text{ m} = -1 \\text{ °C} $$. The new temperature is $$ T_{10m} = T_{0m} + \\Delta T = 25 \\text{ °C} - 1 \\text{ °C} = 24 \\text{ °C} $$.</p>",
         "correct_answer_value": [24.0],
         "hint": "<p><span>Use the gradient to find the change in temperature over the change in depth (ΔT = gradient × Δz). Then add this change to the initial temperature. Remember z is positive downwards.</span></p>"
@@ -307,7 +307,7 @@ questions = [
     {
         "id_name": "Tute1_37", 
         "type": "multichoice",
-        "question_text": "<p><strong>Q37</strong> The term dS/dy represents the gradient of salinity (S) in which direction?</p>",
+        "question_text": "<p><strong>Q22</strong> The term dS/dy represents the gradient of salinity (S) in which direction?</p>",
         "general_feedback": "<p>The 'dy' in the denominator indicates a change in the y-direction, which is conventionally Northward.</p>",
         "options": [
             {"text": "<![CDATA[Eastward]]>", "fraction": "0"},
@@ -321,7 +321,7 @@ questions = [
     {
         "id_name": "Tute1_42", 
         "type": "multichoice",
-        "question_text": "<p><strong>Q42</strong> If dH/dy is negative, where H is the height of a wave, what does this imply about the wave height as you move Northward?</p>",
+        "question_text": "<p><strong>Q23</strong> If dH/dy is negative, where H is the height of a wave, what does this imply about the wave height as you move Northward?</p>",
         "general_feedback": "<p>y is the Northward direction. A negative dH/dy means that wave height (H) decreases as y (Northward distance) increases. So, wave height decreases as you move Northward.</p>",
         "options": [
             {"text": "<![CDATA[It increases]]>", "fraction": "0"},
@@ -336,7 +336,7 @@ questions = [
     {
         "id_name": "Tute1_12",
         "type": "numerical",
-        "question_text": "<p><strong>Q12</strong> Sydney Harbour (close to the Harbour Bridge) has a width of 1.2km and a depth of 50m. If water on an outgoing tide is flowing outwards at 1.2m/s, what is the volume of water leaving the harbour each second? (Answer in m<sup>3</sup>/s)</p>",
+        "question_text": "<p><strong>Q24</strong> Sydney Harbour (close to the Harbour Bridge) has a width of 1.2km and a depth of 50m. If water on an outgoing tide is flowing outwards at 1.2m/s, what is the volume of water leaving the harbour each second? (Answer in m<sup>3</sup>/s)</p>",
         "general_feedback": "<p>Cross-sectional Area = width × depth = 1200m × 50m = 60,000 m<sup>2</sup>. Volume Flux = Area × velocity = 60,000 m<sup>2</sup> × 1.2 m/s = 72,000 m<sup>3</sup>/s</p>",
         "correct_answer_value": [72000.0],
         "hint": "<p><span>The volume of water will be the cross-sectional area that the water is passing through times the speed of the water. Remember to convert km to m.</span></p>"
@@ -344,7 +344,7 @@ questions = [
     {
         "id_name": "Tute1_21",
         "type": "numerical",
-        "question_text": "<p><strong>Q21</strong> Water flows through a rectangular channel that is 2m wide and 1m deep. If the velocity of the water is 0.5 m/s, what is the volume flux? (Answer in m<sup>3</sup>/s)</p>",
+        "question_text": "<p><strong>Q25</strong> Water flows through a rectangular channel that is 2m wide and 1m deep. If the velocity of the water is 0.5 m/s, what is the volume flux? (Answer in m<sup>3</sup>/s)</p>",
         "general_feedback": "<p>First, calculate the cross-sectional area: Area = width × depth = 2m × 1m = 2 m<sup>2</sup>. Then, Volume Flux = Area × velocity = 2 m<sup>2</sup> × 0.5 m/s = 1 m<sup>3</sup>/s.</p>",
         "correct_answer_value": [1.0],
         "hint": "<p><span>Volume flux is calculated as Cross-sectional Area × Velocity. First find the area.</span></p>"
@@ -352,7 +352,7 @@ questions = [
     {
         "id_name": "Tute1_22",
         "type": "multichoice",
-        "question_text": "<p><strong>Q22</strong> If the velocity of water through a pipe of constant area decreases, what happens to the volume flux?</p>",
+        "question_text": "<p><strong>Q26</strong> If the velocity of water through a pipe of constant area decreases, what happens to the volume flux?</p>",
         "general_feedback": "<p>Volume Flux = Area × velocity. If Area is constant and velocity decreases, then the Volume Flux must also decrease.</p>",
         "options": [
             {"text": "<![CDATA[It increases.]]>", "fraction": "0"},
@@ -366,7 +366,7 @@ questions = [
     {
         "id_name": "Tute1_29",
         "type": "multichoice",
-        "question_text": "<p><strong>Q29</strong> A river narrows, but the volume of water flowing per second (volume flux) remains the same. What happens to the average speed of the water?</p>",
+        "question_text": "<p><strong>Q27</strong> A river narrows, but the volume of water flowing per second (volume flux) remains the same. What happens to the average speed of the water?</p>",
         "general_feedback": "<p>Volume Flux = Area × Speed. If the river narrows, the cross-sectional Area decreases. For the Volume Flux to remain constant, the Speed must increase (principle of continuity).</p>",
         "options": [
             {"text": "<![CDATA[It increases.]]>", "fraction": "100"},
@@ -379,7 +379,7 @@ questions = [
      {
         "id_name": "Tute1_34", 
         "type": "numerical",
-        "question_text": "<p><strong>Q34</strong> Volume flux through a strait is 1000 m<sup>3</sup>/s. If the cross-sectional area of the strait is 500 m<sup>2</sup>, what is the average velocity of the water? (Answer in m/s)</p>",
+        "question_text": "<p><strong>Q28</strong> Volume flux through a strait is 1000 m<sup>3</sup>/s. If the cross-sectional area of the strait is 500 m<sup>2</sup>, what is the average velocity of the water? (Answer in m/s)</p>",
         "general_feedback": "<p>Volume Flux (Q) = Area (A) × Velocity (v). So, v = Q / A.  v = 1000 m<sup>3</sup>/s / 500 m<sup>2</sup> = 2 m/s.</p>",
         "correct_answer_value": [2.0],
         "hint": "<p><span>Rearrange the volume flux equation to solve for velocity.</span></p>"
@@ -387,7 +387,7 @@ questions = [
     {
         "id_name": "Tute1_39",
         "type": "multichoice",
-        "question_text": "<p><strong>Q39</strong> If a channel's cross-sectional area is 10 m<sup>2</sup> and water flows through it at 3 m/s, the volume flux is:</p>",
+        "question_text": "<p><strong>Q29</strong> If a channel's cross-sectional area is 10 m<sup>2</sup> and water flows through it at 3 m/s, the volume flux is:</p>",
         "general_feedback": "<p>Volume Flux = Area × Velocity = 10 m<sup>2</sup> × 3 m/s = 30 m<sup>3</sup>/s.</p>",
         "options": [
             {"text": "3.33 m<sup>3</sup>/s", "fraction": "0"},
@@ -401,7 +401,7 @@ questions = [
      {
         "id_name": "Tute1_44", 
         "type": "multichoice",
-        "question_text": "<p><strong>Q44</strong> A different channel has a cross-sectional area of 20 m<sup>2</sup> and water flows through it at 2.5 m/s. What is the volume flux?</p>",
+        "question_text": "<p><strong>Q30</strong> A different channel has a cross-sectional area of 20 m<sup>2</sup> and water flows through it at 2.5 m/s. What is the volume flux?</p>",
         "general_feedback": "<p>Volume Flux = Area × Velocity = 20 m<sup>2</sup> × 2.5 m/s = 50 m<sup>3</sup>/s.</p>",
         "options": [
             {"text": "8 m<sup>3</sup>/s", "fraction": "0"},
@@ -416,7 +416,7 @@ questions = [
     {
         "id_name": "Tute1_10a",
         "type": "numerical",
-        "question_text": "<p><strong>Q10a</strong> Assuming that the density of sea water is 1030 kg/m<sup>3</sup> and g = 10 m/s<sup>2</sup>, what is the water pressure at 100m in the ocean? (Answer in N/m<sup>2</sup>)</p>",
+        "question_text": "<p><strong>Q31</strong> Assuming that the density of sea water is 1030 kg/m<sup>3</sup> and g = 10 m/s<sup>2</sup>, what is the water pressure at 100m in the ocean? (Answer in N/m<sup>2</sup>)</p>",
         "general_feedback": "<p>Pressure = depth x density x g = 100m x 1030 kg/m<sup>3</sup> x 10 m/s<sup>2</sup> = 1,030,000 N/m<sup>2</sup>.</p>",
         "correct_answer_value": [1030000.0],
         "hint": "<p><span>hint $$ p=h \\rho g $$</span></p>"
@@ -424,7 +424,7 @@ questions = [
     {
         "id_name": "Tute1_10b",
         "type": "numerical",
-        "question_text": "<p><strong>Q10b</strong> Atmospheric pressure is about 100,000 N/m<sup>2</sup>. How far down into the ocean (density 1030 kg/m<sup>3</sup>) would I need to go to increase the pressure by this amount? Use g = 10 m/s<sup>2</sup>. (Answer in m, to one decimal place)</p>",
+        "question_text": "<p><strong>Q32</strong> Atmospheric pressure is about 100,000 N/m<sup>2</sup>. How far down into the ocean (density 1030 kg/m<sup>3</sup>) would I need to go to increase the pressure by this amount? Use g = 10 m/s<sup>2</sup>. (Answer in m, to one decimal place)</p>",
         "general_feedback": "<p>Pressure= depth x density x g. So, depth = Pressure / (density x g) = 100,000 N/m<sup>2</sup> / (1030 kg/m<sup>3</sup> x 10 m/s<sup>2</sup>) = 100,000 / 10300 ≈ 9.7 m.</p>",
         "correct_answer_value": [9.7],
         "hint": "<p><span>hint $$ p=h \\rho g $$, rearrange for h.</span></p>"
@@ -432,7 +432,7 @@ questions = [
     {
         "id_name": "Tute1_19",
         "type": "numerical",
-        "question_text": "<p><strong>Q19</strong> The density of freshwater is 1000 kg/m<sup>3</sup>. What is the pressure at a depth of 10m due to the water alone? Use g = 10 m/s<sup>2</sup>. (Answer in N/m<sup>2</sup>)</p>",
+        "question_text": "<p><strong>Q33</strong> The density of freshwater is 1000 kg/m<sup>3</sup>. What is the pressure at a depth of 10m due to the water alone? Use g = 10 m/s<sup>2</sup>. (Answer in N/m<sup>2</sup>)</p>",
         "general_feedback": "<p>Pressure $$ p = \\rho g h $$. So, $$ p = 1000 \\text{ kg/m}^3 \\times 10 \\text{ m/s}^2 \\times 10 \\text{ m} = 100,000 \\text{ N/m}^2 $$.</p>",
         "correct_answer_value": [100000.0],
         "hint": "<p><span>Use the formula $$ p = \\rho g h $$. Ensure all units are consistent.</span></p>"
@@ -440,7 +440,7 @@ questions = [
     {
         "id_name": "Tute1_20",
         "type": "multichoice",
-        "question_text": "<p><strong>Q20</strong> If you dive deeper in the ocean, how does the hydrostatic pressure change (assuming density is constant)?</p>",
+        "question_text": "<p><strong>Q34</strong> If you dive deeper in the ocean, how does the hydrostatic pressure change (assuming density is constant)?</p>",
         "general_feedback": "<p>Pressure $$ p = \\rho g h $$. As depth (h) increases, pressure (p) increases.</p>",
         "options": [
             {"text": "<![CDATA[It increases.]]>", "fraction": "100"},
@@ -454,7 +454,7 @@ questions = [
     {
         "id_name": "Tute1_33",
         "type": "numerical",
-        "question_text": "<p><strong>Q33</strong> A research submarine is at a depth where the pressure is 500,000 N/m<sup>2</sup>. If the density of seawater is 1025 kg/m<sup>3</sup> and g = 10 m/s<sup>2</sup>, approximately what is the depth of the submarine? (Answer in m, to the nearest meter)</p>",
+        "question_text": "<p><strong>Q35</strong> A research submarine is at a depth where the pressure is 500,000 N/m<sup>2</sup>. If the density of seawater is 1025 kg/m<sup>3</sup> and g = 10 m/s<sup>2</sup>, approximately what is the depth of the submarine? (Answer in m, to the nearest meter)</p>",
         "general_feedback": "<p>Using $$ p = \\rho g h $$, we rearrange to $$ h = \\frac{p}{\\rho g} $$. So, $$ h = \\frac{500000 \\text{ N/m}^2}{1025 \\text{ kg/m}^3 \\times 10 \\text{ m/s}^2} = \\frac{500000}{10250} \\approx 48.78 \\text{ m} $$. To the nearest meter, this is 49 m.</p>",
         "correct_answer_value": [49.0],
         "hint": "<p><span>Rearrange the hydrostatic pressure formula to solve for depth (h).</span></p>"
@@ -462,7 +462,7 @@ questions = [
     {
         "id_name": "Tute1_38",
         "type": "numerical",
-        "question_text": "<p><strong>Q38</strong> A layer of freshwater (density 1000 kg/m<sup>3</sup>) is 5m thick. What is the pressure at the bottom of this layer due to the freshwater alone? Use g = 10 m/s<sup>2</sup>. (Answer in N/m<sup>2</sup>)</p>",
+        "question_text": "<p><strong>Q36</strong> A layer of freshwater (density 1000 kg/m<sup>3</sup>) is 5m thick. What is the pressure at the bottom of this layer due to the freshwater alone? Use g = 10 m/s<sup>2</sup>. (Answer in N/m<sup>2</sup>)</p>",
         "general_feedback": "<p>$$ p = \\rho g h = 1000 \\text{ kg/m}^3 \\times 10 \\text{ m/s}^2 \\times 5 \\text{ m} = 50000 \\text{ N/m}^2 $$.</p>",
         "correct_answer_value": [50000.0],
         "hint": "<p><span>Apply the hydrostatic pressure formula: $$ p = \\rho g h $$.</span></p>"
@@ -470,7 +470,7 @@ questions = [
     {
         "id_name": "Tute1_43",
         "type": "numerical",
-        "question_text": "<p><strong>Q43</strong> The pressure at the bottom of a tank due to water is 9800 N/m<sup>2</sup>. If g = 10 m/s<sup>2</sup> and the density of water is 1000 kg/m<sup>3</sup>, what is the depth of the water? (Answer in m)</p>",
+        "question_text": "<p><strong>Q37</strong> The pressure at the bottom of a tank due to water is 9800 N/m<sup>2</sup>. If g = 10 m/s<sup>2</sup> and the density of water is 1000 kg/m<sup>3</sup>, what is the depth of the water? (Answer in m)</p>",
         "general_feedback": "<p>Using $$ p = \\rho g h $$, we get $$ h = \\frac{p}{\\rho g} $$. So, $$ h = \\frac{9800 \\text{ N/m}^2}{1000 \\text{ kg/m}^3 \\times 10 \\text{ m/s}^2} = \\frac{9800}{10000} = 0.98 \\text{ m} $$.</p>",
         "correct_answer_value": [0.98],
         "hint": "<p><span>Use the hydrostatic pressure formula and rearrange it to solve for h.</span></p>"
@@ -478,7 +478,7 @@ questions = [
      {
         "id_name": "Tute1_48",
         "type": "numerical",
-        "question_text": "<p><strong>Q48</strong> The pressure at a depth of 200m in the ocean (density 1020 kg/m<sup>3</sup>, g = 10 m/s<sup>2</sup>) is 2,040,000 N/m<sup>2</sup>. What is the pressure at a depth of 100m (assuming the same density and g)? (Answer in N/m<sup>2</sup>)</p>",
+        "question_text": "<p><strong>Q38</strong> The pressure at a depth of 200m in the ocean (density 1020 kg/m<sup>3</sup>, g = 10 m/s<sup>2</sup>) is 2,040,000 N/m<sup>2</sup>. What is the pressure at a depth of 100m (assuming the same density and g)? (Answer in N/m<sup>2</sup>)</p>",
         "general_feedback": "<p>Pressure is directly proportional to depth ($$p = \\rho g h$$). If the depth is halved (from 200m to 100m), and ρ and g are constant, the pressure will also be halved. So, new pressure = 2,040,000 N/m<sup>2</sup> / 2 = 1,020,000 N/m<sup>2</sup>. Alternatively, calculate directly: $$p = 1020 \\text{ kg/m}^3 \\times 10 \\text{ m/s}^2 \\times 100 \\text{m} = 1,020,000 \\text{ N/m}^2$$.</p>",
         "correct_answer_value": [1020000.0],
         "hint": "<p><span>Pressure is proportional to depth. If depth is halved, what happens to pressure? Or, you can calculate it directly using $$ p = \\rho g h $$.</span></p>"
@@ -487,7 +487,7 @@ questions = [
     {
         "id_name": "Tute1_6_alt",
         "type": "numerical",
-        "question_text": "<p><strong>Q_UnitConv_1</strong> The Antarctic Circumpolar Current flows with a speed of 0.5m/s towards the east. How many kilometers would it travel in one day? (Answer in km, to one decimal place)</p>",
+        "question_text": "<p><strong>Q39</strong> The Antarctic Circumpolar Current flows with a speed of 0.5m/s towards the east. How many kilometers would it travel in one day? (Answer in km, to one decimal place)</p>",
         "general_feedback": "<p>0.5 m/s = 0.5 * (3600 seconds/hour * 24 hours/day) m/day = 0.5 * 86400 m/day = 43200 m/day. To convert to km/day, divide by 1000: 43200 / 1000 = 43.2 km/day.</p>",
         "correct_answer_value": [43.2],
         "hint": "<p><span>Convert m/s to m/day first, then m/day to km/day. There are 86400 seconds in a day.</span></p>"
@@ -495,7 +495,7 @@ questions = [
     {
         "id_name": "Tute1_4_reordered",
         "type": "numerical",
-        "question_text": "<p><strong>Q_DistTime_1</strong> An oil slick is travelling at v=0.7m/s carried in the Gulf Stream. How far would it travel in 3 days? (Answer in km, to one decimal place)</p>",
+        "question_text": "<p><strong>Q40</strong> An oil slick is travelling at v=0.7m/s carried in the Gulf Stream. How far would it travel in 3 days? (Answer in km, to one decimal place)</p>",
         "general_feedback": "<p>Speed in m/day = 0.7 m/s × (60 s/min × 60 min/hr × 24 hr/day) = 0.7 × 86400 m/day = 60480 m/day. Speed in km/day = 60480 / 1000 = 60.48 km/day. Distance in 3 days = 60.48 km/day × 3 days = 181.44 km. Rounded to one decimal place is 181.4 km.</p>",
         "correct_answer_value": [181.4],
         "hint": "<p><span>Remember distance is speed x time. Convert units carefully: m/s to km/day.</span></p>"
@@ -503,7 +503,7 @@ questions = [
     {
         "id_name": "Tute1_8a_reordered",
         "type": "numerical",
-        "question_text": "<p><strong>Q_Circum_1</strong> At 70°S if I start moving northwards and keep going, how far would I need to travel to get back to where I started? [the radius of the earth is 6400km] (Answer in km, to the nearest km)</p>",
+        "question_text": "<p><strong>Q41</strong> At 70°S if I start moving northwards and keep going, how far would I need to travel to get back to where I started? [the radius of the earth is 6400km] (Answer in km, to the nearest km)</p>",
         "general_feedback": "<p>The circumference of the earth along lines of constant longitude is always the same. Circumference = 2 × π × Radius = 2 × π × 6400km ≈ 40212.38 km. To the nearest km, this is 40212 km.</p>",
         "correct_answer_value": [40212.0],
         "hint": "<p>Remember $$ Circumference = 2 \\times \\pi \\times Radius$$</p>"
@@ -511,7 +511,7 @@ questions = [
     {
         "id_name": "Tute1_8b_reordered",
         "type": "numerical",
-        "question_text": "<p><strong>Q_Circum_2</strong> At 70°S if instead I start moving eastwards and keep going, how far would I need to travel to get back to where I started? [the radius of the earth is 6400km] (Answer in km, to the nearest km)</p>",
+        "question_text": "<p><strong>Q42</strong> At 70°S if instead I start moving eastwards and keep going, how far would I need to travel to get back to where I started? [the radius of the earth is 6400km] (Answer in km, to the nearest km)</p>",
         "general_feedback": "<p>The circumference of the earth along lines of constant latitude gets smaller towards the poles. Circumference = 2 × π × Radius × cos(latitude) = 2 × π × 6400km × cos(70°) ≈ 40212.38 km × 0.34202 ≈ 13753.25 km. To the nearest km, this is 13753 km.</p>",
         "correct_answer_value": [13753.0],
         "hint": "<p><span>Remember $$ Circumference at a given latitude = 2 \\times \\pi \\times Radius \\times cos(latitude) $$ Ensure your calculator is in degrees mode for cos(70°).</span></p>"
@@ -519,7 +519,7 @@ questions = [
     {
         "id_name": "Tute1_8c_reordered", 
         "type": "numerical",
-        "question_text": "<p><strong>Q_Circum_3</strong> A boat is travelling eastwards at 50km/hr at 70°S. The distance to circumnavigate the planet at this latitude is approximately 13753 km. How long will the boat take? (Answer in days, to one decimal place)</p>",
+        "question_text": "<p><strong>Q43</strong> A boat is travelling eastwards at 50km/hr at 70°S. The distance to circumnavigate the planet at this latitude is approximately 13753 km. How long will the boat take? (Answer in days, to one decimal place)</p>",
         "general_feedback": "<p>Time = Distance / Speed = 13753 km / 50 km/hr = 275.06 hours. Time in days = 275.06 hours / 24 hours/day ≈ 11.46 days. To one decimal place: 11.5 days.</p>",
         "correct_answer_value": [11.5],
         "hint": "<p><span>Remember speed = distance/time. So, time = distance/speed.</span></p>"
@@ -527,7 +527,7 @@ questions = [
     {
         "id_name": "Tute1_23",
         "type": "numerical",
-        "question_text": "<p><strong>Q_UnitConv_2</strong> A ship travels at 20 knots. Knowing that 1 knot is approximately 0.514 m/s, what is the ship's speed in m/s? (Give your answer to one decimal place).</p>",
+        "question_text": "<p><strong>Q44</strong> A ship travels at 20 knots. Knowing that 1 knot is approximately 0.514 m/s, what is the ship's speed in m/s? (Give your answer to one decimal place).</p>",
         "general_feedback": "<p>Speed in m/s = 20 knots × 0.514 m/s/knot = 10.28 m/s. To one decimal place, this is 10.3 m/s.</p>",
         "correct_answer_value": [10.3],
         "hint": "<p><span>Multiply the speed in knots by the conversion factor.</span></p>"
@@ -535,7 +535,7 @@ questions = [
      {
         "id_name": "Tute1_26",
         "type": "numerical",
-        "question_text": "<p><strong>Q_Vector_1</strong> A current has u = 3 m/s and v = 4 m/s. What is the magnitude of its horizontal speed? (Answer in m/s)</p>",
+        "question_text": "<p><strong>Q45</strong> A current has u = 3 m/s and v = 4 m/s. What is the magnitude of its horizontal speed? (Answer in m/s)</p>",
         "general_feedback": "<p>The magnitude of the horizontal speed is found using the Pythagorean theorem: $$ \\text{Speed} = \\sqrt{u^2 + v^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5 \\text{ m/s} $$.</p>",
         "correct_answer_value": [5.0],
         "hint": "<p><span>Use the Pythagorean theorem to combine the u and v components of velocity.</span></p>"
@@ -543,7 +543,7 @@ questions = [
     {
         "id_name": "Tute1_30",
         "type": "numerical",
-        "question_text": "<p><strong>Q_UnitConv_3</strong> Atmospheric pressure is approximately 100,000 N/m<sup>2</sup>. What is this pressure in kPa (kilopascals)?</p>",
+        "question_text": "<p><strong>Q46</strong> Atmospheric pressure is approximately 100,000 N/m<sup>2</sup>. What is this pressure in kPa (kilopascals)?</p>",
         "general_feedback": "<p>1 Pascal (Pa) = 1 N/m<sup>2</sup>. 1 kilopascal (kPa) = 1000 Pa. Therefore, 100,000 N/m<sup>2</sup> = 100,000 Pa = 100,000 / 1000 kPa = 100 kPa.</p>",
         "correct_answer_value": [100.0],
         "hint": "<p><span>Remember that 1 N/m<sup>2</sup> is equal to 1 Pascal (Pa). 'kilo' means 1000.</span></p>"
@@ -551,7 +551,7 @@ questions = [
     {
         "id_name": "Tute1_35",
         "type": "numerical",
-        "question_text": "<p><strong>Q_UnitConv_4</strong> How many meters are there in 2.5 kilometers? (Answer in m)</p>",
+        "question_text": "<p><strong>Q47</strong> How many meters are there in 2.5 kilometers? (Answer in m)</p>",
         "general_feedback": "<p>1 kilometer = 1000 meters. So, 2.5 kilometers = 2.5 × 1000 meters = 2500 meters.</p>",
         "correct_answer_value": [2500.0],
         "hint": "<p><span>'kilo' means one thousand.</span></p>"
@@ -559,7 +559,7 @@ questions = [
     {
         "id_name": "Tute1_40",
         "type": "numerical",
-        "question_text": "<p><strong>Q_DistTime_2</strong> A drifter moves 150 km in 3 days. What is its average speed in km/day?</p>",
+        "question_text": "<p><strong>Q48</strong> A drifter moves 150 km in 3 days. What is its average speed in km/day?</p>",
         "general_feedback": "<p>Speed = Distance / Time = 150 km / 3 days = 50 km/day.</p>",
         "correct_answer_value": [50.0],
         "hint": "<p><span>Speed is calculated as Distance divided by Time.</span></p>"
@@ -567,7 +567,7 @@ questions = [
     {
         "id_name": "Tute1_45",
         "type": "numerical",
-        "question_text": "<p><strong>Q_UnitConv_5</strong> How many seconds are in half a day? (Answer in s)</p>",
+        "question_text": "<p><strong>Q49</strong> How many seconds are in half a day? (Answer in s)</p>",
         "general_feedback": "<p>Half a day = 12 hours. 1 hour = 60 minutes. 1 minute = 60 seconds. So, 12 hours × 60 min/hr × 60 s/min = 43200 s.</p>",
         "correct_answer_value": [43200.0],
         "hint": "<p><span>There are 24 hours in a day, 60 minutes in an hour, and 60 seconds in a minute.</span></p>"
@@ -575,7 +575,7 @@ questions = [
     {
         "id_name": "Tute1_50",
         "type": "numerical",
-        "question_text": "<p><strong>Q_Vector_2</strong> A swimmer crosses a river. The river flows eastward (u = 0.5 m/s). The swimmer swims northward relative to the water (v = 1 m/s). What is the swimmer's speed relative to the ground? (Answer in m/s, to two decimal places)</p>",
+        "question_text": "<p><strong>Q50</strong> A swimmer crosses a river. The river flows eastward (u = 0.5 m/s). The swimmer swims northward relative to the water (v = 1 m/s). What is the swimmer's speed relative to the ground? (Answer in m/s, to two decimal places)</p>",
         "general_feedback": "<p>The swimmer's velocity components relative to the ground are u = 0.5 m/s and v = 1 m/s. The speed is the magnitude of this velocity vector: $$ \\text{Speed} = \\sqrt{u^2 + v^2} = \\sqrt{(0.5)^2 + (1)^2} = \\sqrt{0.25 + 1} = \\sqrt{1.25} \\approx 1.118 \\text{ m/s} $$. To two decimal places, this is 1.12 m/s.</p>",
         "correct_answer_value": [1.12],
         "hint": "<p><span>The swimmer's velocity relative to the ground has an eastward component (due to the river) and a northward component (due to their swimming). Use Pythagoras to find the magnitude.</span></p>"
