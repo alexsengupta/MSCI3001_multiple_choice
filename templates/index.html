@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Start Quiz{% endblock %}
+
+{% block content %}
+    <h2>Welcome to the Tutorial 1 & 2 Q&A</h2>
+    <p>This is a formative quiz to help you understand basic concepts.</p>
+    <form method="post" action="{{ url_for('index') }}"> {# Posts to the index route itself #}
+        <button type="submit" class="start-button">Start Quiz</button>
+    </form>
+{% endblock %}

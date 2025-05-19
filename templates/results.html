@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Quiz Results{% endblock %}
+
+{% block content %}
+    <h2>Quiz Finished!</h2>
+    <p>You eventually answered {{ score }} out of {{ total_questions }} questions correctly.</p>
+    <p>Below is a review of all questions, your final answers, and the correct answers.</p>
+
+    <table class="results-table">
+        <thead>
+            <tr>
+                <th>Q#</th>
+                <th>Question</th>
+                <th>Your Final Answer</th>
+                <th>Correct Answer</th>
+                <th>Status</th>
+                <th>General Feedback</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for result in results %}
+            <tr>
+                <td>{{ loop.index }} ({{ result.id_name }})</td>
+                <td>{{ result.question_text }}</td>
+                <td class="{{ 'user-answer-correct' if result.was_correct else 'user-answer-incorrect' }}">
+                    {{ result.user_answer }}
+                </td>
+                <td class="correct-answer-text">{{ result.correct_answer_display }}</td>
+                <td>{% if result.was_correct %}Correct{% else %}Incorrect or Not Attempted{% endif %}</td>
+                <td>{{ result.general_feedback }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <hr>
+    <p class="restart-link"><a href="{{ url_for('start_quiz') }}">Start New Quiz</a></p>
+{% endblock %}

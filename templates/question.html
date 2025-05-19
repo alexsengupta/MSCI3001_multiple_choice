@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block title %}Question {{ q_idx + 1 }}{% endblock %}
+
+{% block content %}
+    <h2>Question {{ q_idx + 1 }} of {{ total_questions }}</h2>
+    <div class="question-box">
+        {{ question.question_text }}
+    </div>
+
+    <div id="correct-tick" class="correct-tick" style="display: {% if show_correct_tick_js %}block{% else %}none{% endif %};">✓</div>
+
+    {% if feedback and not show_correct_tick_js %}
+        <div class="feedback {% if session['user_final_answers'][q_idx].is_correct and not show_correct_tick_js %}feedback-correct-text{% elif not session['user_final_answers'][q_idx].is_correct %}incorrect{% endif %}">
+            {{ feedback }}
+        </div>
+    {% endif %}
+
+    {% if show_hint_now and question.hint and not session['user_final_answers'][q_idx].is_correct %}
+        <div class="hint">
+            <strong>Hint:</strong> {{ question.hint }}
+        </div>
+    {% endif %}
+
+    {# Show form if not currently in the "correct tick auto-advance" phase #}
+    <form method="post" id="question-form" style="display: {% if show_correct_tick_js %}none{% else %}block{% endif %};">
+        {% if question.type == 'multichoice' %}
+            <div class="options">
+            {% for option in question.options %}
+                <label>
+                    <input type="radio" name="answer" value="{{ option.value_attr }}" 
+                           {% if user_previous_answer == option.value_attr %}checked{% endif %} required>
+                    {{ option.text_html }}
+                </label>
+            {% endfor %}
+            </div>
+        {% elif question.type == 'numerical' %}
+            <label for="answer">Your Answer:</label>
+            <input type="text" id="answer" name="answer" value="{{ user_previous_answer if user_previous_answer is not none else '' }}" required autocomplete="off">
+        {% endif %}
+        <br><br>
+        <div class="action-buttons">
+            <button type="submit">Submit Answer</button>
+        </div>
+    </form>
+    
+    <div class="action-buttons" style="margin-top: 10px;"> {# Separate div for Next/Results for clarity #}
+        {# "Next Question" button is always available unless it's the very last question AND it has been answered correctly #}
+        {% if q_idx < total_questions - 1 %}
+            <button type="button" onclick="goToNextQuestion()">Next Question</button>
+        {% elif q_idx == total_questions - 1 and session['user_final_answers'][q_idx].is_correct %}
+             <button type="button" onclick="window.location.href='{{ url_for('results') }}'">View Results</button>
+        {% elif q_idx == total_questions - 1 and not session['user_final_answers'][q_idx].is_correct %}
+            {# On the last question, if not correct, "Next Question" effectively means "try again or go to results if you give up" #}
+            {# Or we can show results button always on last question if they attempt it #}
+             <button type="button" onclick="window.location.href='{{ url_for('results') }}'">View Results (Finish)</button>
+        {% endif %}
+    </div>
+
+
+    <hr>
+
+    <div class="nav-panel">
+        {% for nav_item in nav_panel_status %}
+            <a href="{{ url_for('navigate_to_question', target_q_idx=nav_item.idx) }}"
+               class="nav-button {{ nav_item.status }} {% if nav_item.idx == q_idx %}current{% endif %}">
+                {{ nav_item.number }}
+            </a>
+        {% endfor %}
+    </div>
+     <p class="restart-link"><a href="{{ url_for('start_quiz') }}">Restart Quiz (clears progress)</a></p>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const showTick = {{ show_correct_tick_js|tojson }};
+            const form = document.getElementById('question-form');
+            
+            if (showTick) {
+                if (form) {
+                    form.style.display = 'none'; // Hide form when tick is shown
+                }
+                setTimeout(function() {
+                    document.getElementById('correct-tick').style.display = 'none';
+                    // The /next_question route will handle advancing or going to results
+                    window.location.href = "{{ url_for('next_question_logic') }}"; 
+                }, 700); 
+            } else if ({{ session['user_final_answers'][q_idx].is_correct|tojson }} && form) {
+                 // If the page loads and the question is already correct (e.g., navigated back)
+                 // and we are NOT in the tick-display phase from a POST.
+                 form.style.display = 'none';
+            }
+        });
+
+        function goToNextQuestion() {
+            // This function simply triggers the server-side logic for advancing.
+            window.location.href = "{{ url_for('next_question_logic') }}";
+        }
+    </script>
+{% endblock %}
